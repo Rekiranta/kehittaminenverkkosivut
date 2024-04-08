@@ -19,7 +19,7 @@ body {
 }
 
 ol.letters {
-    list-style-type: lower-alpha;
+    list-style-type: upper-alpha;
 }
 
 ul.squares {
