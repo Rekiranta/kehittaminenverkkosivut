@@ -1,27 +1,28 @@
 body {
     background-color: black;
     color: white;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 20px;
-  }
-  
-  p {
+}
+
+p {
     font-size: 12px;
     color: lightgray;
-  }
-  
-  div.dotted-border {
-    border: 2px dotted white;
+}
+
+div {
+    border: 2px dotted;
     width: 100px;
     height: 100px;
-  }
-  
-  ol {
+}
+
+ol {
     list-style-type: upper-alpha;
-  }
-  
-  ul {
+}
+
+ul {
     list-style-type: square;
-  }
+}
+
