@@ -1,26 +1,39 @@
 body {
-    background-image: url('kuvat1+2/background.jpg'); 
-    background-color: #f0f0f0; 
+    background-image: url('kuvat1, kuva2');
 }
 
-h1, h2 {
-    border-bottom: 2px solid #333; 
+header {
+    background-color: #333;
+    padding: 10px;
 }
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+h1 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
 p {
-    background-color: #eef; 
-    border-radius: 10px; 
-    padding: 10px; 
-    margin: 20px 0; 
-}
-img, figure, progress {
-    margin: 20px 0; 
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
 }
 
-figure, figcaption {
-    text-align: center; 
+figure {
+    margin: 20px 0;
 }
 
-header, footer, nav {
-    margin: 10px 0; 
-    padding: 5px; 
+figcaption {
+    text-align: center;
+}
+
+progress {
+    width: 50%;
+    margin: 20px auto;
 }
