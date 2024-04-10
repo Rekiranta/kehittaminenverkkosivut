@@ -6,9 +6,9 @@ body {
 }
 
 aside {
-    position: absolute; /* Tai käytä 'absolute', jos sopii paremmin tarpeisiisi */
-            top: 10; /* Asettaa elementin yläreunan sivun yläreunaan */
-            right: 0; /* Asettaa elementin oikean reunan sivun oikeaan reunaan */
+    position: absolute; 
+            top: 10; 
+            right: 0; 
             padding: 20px;
 }
 #header {
@@ -28,4 +28,10 @@ img.profile-picture, img.hobby-picture, img.room-picture {
     background-color: #eeeeee;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.centered-section {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px;
 }
