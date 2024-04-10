@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #d05353;
     padding: 10px;
 }
 
@@ -14,7 +14,7 @@ header a {
 }
 
 h1 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #f0ebeb;
     padding-bottom: 10px;
 }
 
