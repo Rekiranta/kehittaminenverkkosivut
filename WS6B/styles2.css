@@ -8,18 +8,26 @@ body {
 }
 
 header, nav, footer {
-    width: 100%;
+    text-align: center;
+    background-color: #9f9898;
+    color: #fff;
+    padding: 10px 0;
+
 }
 
 #header {
-    background-color: #f1f1f1;
+    background-color: #5a5656;
     text-align: center;
     padding: 20px;
 }
 
 main {
-    display: flex; 
-    flex-direction: row; 
+    float: left;
+    display: block;
+    color: rgb(107, 96, 96);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 section {
@@ -46,10 +54,11 @@ img.profile-picture, img.hobby-picture, img.room-picture {
     height: auto;
     display: block;
     margin: 20px auto;
+
 }
 
 footer {
-    background-color: #f1f1f1; 
+    background-color: #050505; 
     text-align: center;
     padding: 20px;
     width: 100%;
