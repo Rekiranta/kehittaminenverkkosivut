@@ -36,7 +36,7 @@ caption[style*="caption-side:bottom"] {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #4c5baf;
     color: white;
 }
 
@@ -80,13 +80,13 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     color: white;
-    background-color: #4CAF50;
+    background-color: #9e4caf;
     cursor: pointer;
     font-size: 16px;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #a0458b;
 }
 
 label {
