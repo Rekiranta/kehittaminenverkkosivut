@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf - Sign Up</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .full-screen-image {
+            width: 100vw;           
+            height: 100vh;          
+            object-fit: cover;     
+            position: fixed;        
+            top: 0;
+            left: 0;
+            z-index: -1; 
+        }
+
+        .contact-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Suomen Golf Yhteisö</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Koti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="terveys.html">Terveys hyödyt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ammattilaiset.html">Ammattilaiset</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ilmottaudu.html">Kirjaudu sisään</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <h1>Liity jäseneksi</h1>
+    <form>
+        <label for="lname">Kokonimi:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="about">Kerro itsestäsi muutamalla lauseella golfaajana:</label>
+        <textarea id="about" name="about" rows="4" cols="80"></textarea><br><br>
+        <label><input type="checkbox" name="newsletter"> Tilaa Uutiskirje.</label><br><br>
+        <label for="level">Golf Tasosi:</label>
+        <select id="level" name="level">
+            <option value="beginner">Aloittelija</option>
+            <option value="intermediate">Keskiverto</option>
+            <option value="advanced">Ammatilainen</option>
+        </select><br><br>
+        <input type="submit" value="Rekisteröidy Jäseneksi">
+    </form>
+    <img src="./kuvat/ultra-hd-golf-clear-sky-06tczf72krxdcmsv.jpg" alt="golf" class="full-screen-image">
+    <div class="contact-bar">
+        <p>Suomen Golf Yhteisö | Puh: 012-3456789 | Osoite: Golfkatu 1, 12345 GolfCity, Helsinki</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
