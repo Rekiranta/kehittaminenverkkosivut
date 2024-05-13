@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4;
-    color: #333;
+    color: #f8f8f8;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav ul li a {
 
 
 h1, h2 {
-    color: #333;
+    color: #000000;
 }
 
 img {
