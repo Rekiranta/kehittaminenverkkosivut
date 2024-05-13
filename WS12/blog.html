@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,7 +52,7 @@
           text-decoration: none;
           color: rgb(243, 243, 243);
       }
-      .tags a {
+      .tags {
           color:whitesmoke;
           margin-right: 5px;
       }
@@ -191,130 +191,132 @@
            
 <div class="blog-container">
 
-  <div class="blog">
-      <a href="#" class="view">
-          <img src="./kuvat/images.jpg" alt="Blogi kuva">
-          <h4>Viikonloppu vierumäellä ystävien kanssa</h4>
-          <p>Viime viikonloppuna vierailimme Vierumäen idyllisillä viheriöillä, missä pääsimme nauttimaan upeasta säästä ja ensiluokkaisesta golfkokemuksesta.
-             Kierros täynnä tiukkoja dogleg-reikiä ja vaativia vesiesteitä tarjosi jokaiselle jotakin, ja päivä huipentui viihtyisään illanviettoon klubitalolla.</p>
-      </a>
-      <div class="tags">
-          <a href="#">#Vierumäki</a><a href="#">#Leiri</a><a href="#">#Ystävät</a>
+  <div class="card" style="width: 18rem;"> 
+    <img src="./kuvat/images.jpg" class="card-img-top" alt="Blogi kuva">
+    <div class="card-body">
+      <h5 class="card-title">Viikonloppu vierumäellä ystävien kanssa</h5> 
+      <p class="card-text">Viime viikonloppuna vierailimme Vierumäen idyllisillä viheriöillä, missä pääsimme nauttimaan upeasta säästä ja ensiluokkaisesta golfkokemuksesta. Kierros täynnä tiukkoja dogleg-reikiä ja vaativia vesiesteitä tarjosi jokaiselle jotakin, ja päivä huipentui viihtyisään illanviettoon klubitalolla.</p>
+      <div class="tags mb-2"> 
+        <a href="#" class="badge bg-secondary">#Vierumäki</a> 
+        <a href="#" class="badge bg-secondary">#Leiri</a>
+        <a href="#" class="badge bg-secondary">#Ystävät</a>
       </div>
-      <a href="#" class="follow">Lue lisää!</a>
-  </div>
-
-<div class="blog">
-      <a href="#" class="view">
-        <img src="./kuvat/tali.jpg" alt="Blogi kuva">
-        <h4>Kesäillan pelit Helsingin talissa</h4>
-        <p>
-          Kesäillan golfkierros Talin viehättävässä maisemassa oli täynnä rentoa peli-iloa ja ystävällistä kilpailua. Auringonlaskun aikaan kenttä kylpi kultaisessa valossa, mikä lisäsi pelikokemuksemme taikaa.
-           Päivän päätteeksi nautimme vielä raikkaita virvokkeita klubin terassilla, keskustellen päivän parhaista lyönneistä.</p>
-    </a>
-    <div class="tags">
-        <a href="#">#Tali</a><a href="#">#Kesäilta</a><a href="#">#Stadi</a>
+      <a href="#" class="btn btn-primary">Lue lisää!</a> 
     </div>
-    <a href="#" class="follow">Lue lisää!</a>
-</div>
-
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/vuokatti.jpg" alt="Blogi kuva">
-      <h4>Perheloma vuokatissa</h4>
-      <p>
-        Loma Vuokatissa tarjosi täydellisen yhdistelmän rentoutumista ja aktiviteetteja. Golfkierros Vuokatin vaaramaisemissa oli sekä haastava että palkitseva, kun taas kylpyläosasto tarjosi täydelliset puitteet kehon ja mielen rentoutumiseen.
-         Iltojemme kruunasi tunnelmalliset saunahetket ja virkistävät uintireissut kylpylän lämpimissä altaissa.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Vuokatti</a><a href="#">#Keskisuomi</a><a href="#">#Loma</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
+  
+
+  <div class="card mb-3" style="width: 18rem;"> 
+    <img src="./kuvat/tali.jpg" class="card-img-top" alt="Kesäillan pelit Helsingin talissa">
+    <div class="card-body">
+        <h5 class="card-title">Kesäillan pelit Helsingin talissa</h5>
+        <p class="card-text">Kesäillan golfkierros Talin viehättävässä maisemassa oli täynnä rentoa peli-iloa ja ystävällistä kilpailua. Auringonlaskun aikaan kenttä kylpi kultaisessa valossa, mikä lisäsi pelikokemuksemme taikaa. Päivän päätteeksi nautimme vielä raikkaita virvokkeita klubin terassilla, keskustellen päivän parhaista lyönneistä.</p>
+        <div class="tags mb-2">
+            <a href="#" class="badge bg-secondary">#Tali</a>
+            <a href="#" class="badge bg-secondary">#Kesäilta</a>
+            <a href="#" class="badge bg-secondary">#Stadi</a>
+        </div>
+        <a href="#" class="btn btn-primary">Lue lisää!</a>
+    </div>
 </div>
 
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/espoo.jpg" alt="Blogi kuva">
-      <h4>Viikonloppu pelit Espoossa</h4>
-      <p>
-        Viikonloppu Espoo Golfin kentällä keskellä kesää oli täydellinen pakopaikka arjesta. Kenttä, joka kierteli kauniiden metsäisten maisemien läpi, tarjosi teknistä haastetta ja visuaalista nautintoa.
-         Pelin jälkeen viettämämme aika klubin terassilla kesäisen lämpimässä illassa ystävien seurassa kruunasi kokemuksen.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Espoo Golf</a><a href="#">#Viikonloppu</a><a href="#">#Kesä</a>
+<div class="card mb-3" style="width: 18rem;"> 
+    <img src="./kuvat/vuokatti.jpg" class="card-img-top" alt="Perheloma vuokatissa">
+    <div class="card-body">
+        <h5 class="card-title">Perheloma vuokatissa</h5>
+        <p class="card-text">Loma Vuokatissa tarjosi täydellisen yhdistelmän rentoutumista ja aktiviteetteja. Golfkierros Vuokatin vaaramaisemissa oli sekä haastava että palkitseva, kun taas kylpyläosasto tarjosi täydelliset puitteet kehon ja mielen rentoutumiseen. Iltojemme kruunasi tunnelmalliset saunahetket ja virkistävät uintireissut kylpylän lämpimissä altaissa.</p>
+        <div class="tags mb-2">
+            <a href="#" class="badge bg-secondary">#Vuokatti</a>
+            <a href="#" class="badge bg-secondary">#Keskisuomi</a>
+            <a href="#" class="badge bg-secondary">#Loma</a>
+        </div>
+        <a href="#" class="btn btn-primary">Lue lisää!</a>
+    </div>
+</div>
+
+<div class="card mb-3" style="width: 18rem;"> 
+    <img src="./kuvat/espoo.jpg" class="card-img-top" alt="Viikonloppu pelit Espoossa">
+    <div class="card-body">
+        <h5 class="card-title">Viikonloppu pelit Espoossa</h5>
+        <p class="card-text">Viikonloppu Espoo Golfin kentällä keskellä kesää oli täydellinen pakopaikka arjesta. Kenttä, joka kierteli kauniiden metsäisten maisemien läpi, tarjosi teknistä haastetta ja visuaalista nautintoa. Pelin jälkeen viettämämme aika klubin terassilla kesäisen lämpimässä illassa ystävien seurassa kruunasi kokemuksen.</p>
+        <div class="tags mb-2">
+            <a href="#" class="badge bg-secondary">#Espoo Golf</a>
+            <a href="#" class="badge bg-secondary">#Viikonloppu</a>
+            <a href="#" class="badge bg-secondary">#Kesä</a>
+        </div>
+        <a href="#" class="btn btn-primary">Lue lisää!</a>
+    </div>
+</div>
+
+<div class="card mb-3" style="width: 18rem;"> 
+  <img src="./kuvat/tallinna.jpg" class="card-img-top" alt="Virossa opiskelijakilpailut">
+  <div class="card-body">
+      <h5 class="card-title">Virossa opiskelijakilpailut</h5>
+      <p class="card-text">Kilpailun päätteeksi järjestetty illanvietto tarjosi upean mahdollisuuden rentoutua ja muistella päivän parhaita hetkiä. Tapahtuma pidettiin paikallisessa ravintolassa, jossa tarjoiltiin virolaisia herkkuja ja virvokkeita. Tunnelma oli lämmin ja ystävällinen, ja osallistujat vaihtoivat kokemuksiaan niin pelistä kuin elämästäkin. Ilta syvensi yhteenkuuluvuuden tunnetta ja antoi nuorille golfareille mahdollisuuden solmia uusia ystävyyssuhteita yli kilparajojen.</p>
+      <div class="tags mb-2">
+          <a href="#" class="badge bg-secondary">#Tallinna</a>
+          <a href="#" class="badge bg-secondary">#Viro</a>
+          <a href="#" class="badge bg-secondary">#Opiskelukisat</a>
+      </div>
+      <a href="#" class="btn btn-primary">Lue lisää!</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
 </div>
 
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/tallinna.jpg" alt="Blogi kuva">
-      <h4>Virossa opiskelijakilpailut</h4>
-      <p>Kilpailun päätteeksi järjestetty illanvietto tarjosi upean mahdollisuuden rentoutua ja muistella päivän parhaita hetkiä. Tapahtuma pidettiin paikallisessa ravintolassa, jossa tarjoiltiin virolaisia herkkuja ja virvokkeita. Tunnelma oli lämmin ja ystävällinen, ja osallistujat vaihtoivat kokemuksiaan niin pelistä kuin elämästäkin.
-         Ilta syvensi yhteenkuuluvuuden tunnetta ja antoi nuorille golfareille mahdollisuuden solmia uusia ystävyyssuhteita yli kilparajojen.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Tallinna</a><a href="#">#viro</a><a href="#">#Opiskelukisat</a>
+<div class="card mb-3" style="width: 18rem;"> 
+  <img src="./kuvat/Keimola-GolfFiilistelykuvaa-keimolasta-1-695x521.jpg" class="card-img-top" alt="Upea iltakierros keimolassa">
+  <div class="card-body">
+      <h5 class="card-title">Upea iltakierros keimolassa</h5>
+      <p class="card-text">Iltakierros Keimolan golfkentällä oli täydellinen tapa nauttia kesäillasta. Kenttä, tunnettu hyvin hoidetuista väylistään ja kauniista maisemistaan, loisti auringon viimeisissä säteissä. Pelin edetessä pääsimme todistamaan, kuinka ilta-auringon kultaamat maisemat vaihtuivat hiljalleen hämärtyväksi yöksi, mikä lisäsi kierrokseen rauhallista tunnelmaa. Jokainen väylä tarjosi uuden haasteen ja mahdollisuuden ihailla luonnon kauneutta, mikä teki illasta unohtumattoman.</p>
+      <div class="tags mb-2">
+          <a href="#" class="badge bg-secondary">#Keimola</a>
+          <a href="#" class="badge bg-secondary">#Vantaa</a>
+          <a href="#" class="badge bg-secondary">#Ilta kierros</a>
+      </div>
+      <a href="#" class="btn btn-primary">Lue lisää!</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
 </div>
 
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/Keimola-GolfFiilistelykuvaa-keimolasta-1-695x521.jpg" alt="Blogi kuva">
-      <h4>Upea iltakierros keimolassa </h4>
-      <p>
-        Iltakierros Keimolan golfkentällä oli täydellinen tapa nauttia kesäillasta. Kenttä, tunnettu hyvin hoidetuista väylistään ja kauniista maisemistaan, loisti auringon viimeisissä säteissä. Pelin edetessä pääsimme todistamaan, kuinka ilta-auringon kultaamat maisemat vaihtuivat hiljalleen hämärtyväksi yöksi, mikä lisäsi kierrokseen rauhallista tunnelmaa.
-         Jokainen väylä tarjosi uuden haasteen ja mahdollisuuden ihailla luonnon kauneutta, mikä teki illasta unohtumattoman.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Keimoila</a><a href="#">#Vantaa</a><a href="#">#Ilta kierros</a>
+<div class="card mb-3" style="width: 18rem;"> 
+  <img src="./kuvat/golfmailat2.jpg" class="card-img-top" alt="Korkkaus uuteen kauteen uusilla mailoilla">
+  <div class="card-body">
+      <h5 class="card-title">Korkkaus uuteen kauteen uusilla mailoilla</h5>
+      <p class="card-text">Äskettäin ostin uudet golfmailat Golf Centeristä ja kokemus oli erinomainen. Asiakaspalvelu oli ystävällistä ja asiantuntevaa, ja henkilökunta auttoi minua valitsemaan juuri minulle sopivat mailat, huomioiden pelityylini ja tarpeeni. Heillä oli laaja valikoima huippumerkkien mailoja, joten löysin helposti uudet suosikit. Henkilökunnan ammattitaito ja palvelualttius tekivät ostokokemuksesta miellyttävän ja ongelmattoman. Olen todella tyytyväinen hankintoihini ja odotan innolla seuraavaa kierrosta uusien mailojeni kanssa.</p>
+      <div class="tags mb-2">
+          <a href="#" class="badge bg-secondary">#Golf center</a>
+          <a href="#" class="badge bg-secondary">#Uudet mailat</a>
+          <a href="#" class="badge bg-secondary">#FORE</a>
+      </div>
+      <a href="#" class="btn btn-primary">Lue lisää!</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
 </div>
 
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/golfmailat2.jpg" alt="Blogi kuva">
-      <h4>Korkkaus uuteen kauteen uusilla mailoilla</h4>
-      <p>
-        Äskettäin ostin uudet golfmailat Golf Centeristä ja kokemus oli erinomainen. Asiakaspalvelu oli ystävällistä ja asiantuntevaa, ja henkilökunta auttoi minua valitsemaan juuri minulle sopivat mailat, huomioiden pelityylini ja tarpeeni. Heillä oli laaja valikoima huippumerkkien mailoja, joten löysin helposti uudet suosikit. Henkilökunnan ammattitaito ja palvelualttius tekivät ostokokemuksesta miellyttävän ja ongelmattoman.
-         Olen todella tyytyväinen hankintoihini ja odotan innolla seuraavaa kierrosta uusien mailojeni kanssa.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Golf center</a><a href="#">#Uudet mailat</a><a href="#">#FORE</a>
+<div class="card mb-3" style="width: 18rem;"> 
+  <img src="./kuvat/espanja.jpg" class="card-img-top" alt="Espanjan reissu poikaporukalla">
+  <div class="card-body">
+      <h5 class="card-title">Espanjan reissu poikaporukalla</h5>
+      <p class="card-text">Matkamme Espanjaan tarjosi täydellisen ympäristön golfin pelaamiselle, sillä sää oli koko reissun ajan erittäin lämmin ja aurinkoinen. Kentät olivat upeassa kunnossa, ja auringonpaiste vain korosti niiden kauneutta. Päivät kuluivat nauttiessamme leppoisista kierroksista, joissa auringon kirkas loiste lisäsi pelin haastetta mutta myös miellyttävyyttä. Illat vietimme rentoutuen terasseilla, nauttien paikallisista herkuista ja katsellen, kuinka auringonlasku värjäsi taivaanrannan uskomattoman kauniiksi. Espanjan golfkokemus oli unohtumaton yhdistelmä urheilua ja luonnon kauneutta.</p>
+      <div class="tags mb-2">
+          <a href="#" class="badge bg-secondary">#Espanja</a>
+          <a href="#" class="badge bg-secondary">#Reissu</a>
+          <a href="#" class="badge bg-secondary">#Laatu-aikaa</a>
+      </div>
+      <a href="#" class="btn btn-primary">Lue lisää!</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
 </div>
 
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/espanja.jpg" alt="Blogi kuva">
-      <h4>Espanjan reissu poikaporukalla</h4>
-      <p>
-        Matkamme Espanjaan tarjosi täydellisen ympäristön golfin pelaamiselle, sillä sää oli koko reissun ajan erittäin lämmin ja aurinkoinen. Kentät olivat upeassa kunnossa, ja auringonpaiste vain korosti niiden kauneutta. Päivät kuluivat nauttiessamme leppoisista kierroksista, joissa auringon kirkas loiste lisäsi pelin haastetta mutta myös miellyttävyyttä. Illat vietimme rentoutuen terasseilla, nauttien paikallisista herkuista ja katsellen, kuinka auringonlasku värjäsi taivaanrannan uskomattoman kauniiksi.
-         Espanjan golfkokemus oli unohtumaton yhdistelmä urheilua ja luonnon kauneutta.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Espanja</a><a href="#">#Reissu</a><a href="#">#Lämmin</a>
+<div class="card mb-3" style="width: 18rem;"> 
+  <img src="./kuvat/aamugolf.jpg" class="card-img-top" alt="Upea aamukierros auringonnousussa">
+  <div class="card-body">
+      <h5 class="card-title">Upea aamukierros auringonnousussa</h5>
+      <p class="card-text">Aamu Ringside Golfissa alkoi kirkkaalla auringonpaisteella, mikä lupasi erinomaista pelipäivää. Kun aurinko nousi, se valaisi kentän kauniisti, korostaen sen hyvin hoidettuja väyliä ja viheriöitä. Pelasimme rauhallisessa aamutunnelmassa, nauttien raikkaasta ilmasta ja auringon lämmöstä. Kenttä tarjosi monipuolisia haasteita, jotka pitivät pelin mielenkiintoisena. Aamukierros Ringside Golfissa oli täydellinen yhdistelmä luonnonkauneutta ja golf-elämyksiä, jättäen meidät innostuneiksi ja energisiksi loppupäiväksi.</p>
+      <div class="tags mb-2">
+          <a href="#" class="badge bg-secondary">#Aamukierros</a>
+          <a href="#" class="badge bg-secondary">#Auringonpaiste</a>
+          <a href="#" class="badge bg-secondary">#Aamuvirkut</a>
+      </div>
+      <a href="#" class="btn btn-primary">Lue lisää!</a>
   </div>
-  <a href="#" class="follow">Lue lisää!</a>
 </div>
-
-<div class="blog">
-  <a href="#" class="view">
-      <img src="./kuvat/aamugolf.jpg" alt="Blogi kuva">
-      <h4>Upea aamukierros auringonnousussa</h4>
-      <p>
-        Aamu Ringside Golfissa alkoi kirkkaalla auringonpaisteella, mikä lupasi erinomaista pelipäivää. Kun aurinko nousi, se valaisi kentän kauniisti, korostaen sen hyvin hoidettuja väyliä ja viheriöitä. Pelasimme rauhallisessa aamutunnelmassa, nauttien raikkaasta ilmasta ja auringon lämmöstä. Kenttä tarjosi monipuolisia haasteita, jotka pitivät pelin mielenkiintoisena.
-         Aamukierros Ringside Golfissa oli täydellinen yhdistelmä luonnonkauneutta ja golf-elämyksiä, jättäen meidät innostuneiksi ja energisiksi loppupäiväksi.</p>
-  </a>
-  <div class="tags">
-      <a href="#">#Aamukierros</a><a href="#">#Auringonpaiste</a><a href="#">#Aamuvirkut</a>
-  </div>
-  <a href="#" class="follow">Lue lisää!</a>
-</div>
-
 </div>
 
 <img src="./kuvat/ultra-hd-golf-clear-sky-06tczf72krxdcmsv.jpg" alt="golf" class="full-screen-image">
